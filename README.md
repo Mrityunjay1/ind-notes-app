@@ -84,7 +84,15 @@ src/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-##
-Created a shred component folder for resubale-components
-Used rollup for bundling
-pushed as npm package
+## Package Building
+
+We use Rollup for bundling the package due to its excellent tree-shaking capabilities and optimized output. The build process:
+
+1. Bundles all components and utilities
+2. Transpiles TypeScript
+3. Processes CSS modules
+4. Generates type definitions
+5. Creates ES modules and CommonJS bundles
+6. Optimizes the bundle size
+7. Build the package with Rollup
+8. Publish to npm registry
