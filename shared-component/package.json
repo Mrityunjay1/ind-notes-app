@@ -1,0 +1,20 @@
+{
+    "name": "note-taking-components",
+    "version": "1.0.1",
+    "description": "A collection of React components",
+    "main": "dist/my-components.js",
+    "scripts": {
+      "build": "rollup -c"
+    },
+    "keywords": ["react", "components"],
+    "author": "Mrutunjay Singh",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    }
+  }
