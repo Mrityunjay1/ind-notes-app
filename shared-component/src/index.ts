@@ -1,4 +1,4 @@
-export { NoteList } from "../../src/components/NoteList";
-export { NoteEditor } from "../../src/components/NoteEditor";
-export { Dashboard } from "../../src/components/Dashboard";
+export { NoteCard } from "../../src/components/NoteCard";
+export { Toast } from "../../src/components/Toast";
+
 export { Layout } from "../../src/components/Layout";
